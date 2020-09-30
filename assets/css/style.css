@@ -1,0 +1,52 @@
+.title-speaker{
+  width: 10%;
+  font-size: 22px;
+  font-family: Arial;
+  color: #4f2d7f;
+  padding-left: 15px;
+  border-left: 5px;
+}
+
+.navbar-speaker {
+  font-family: Arial;
+  color: #4f2d7f;
+}
+
+.logo-left{
+  padding-right: 15px;
+}
+
+.logo-right{
+  padding-left: 15px;
+}
+
+.vl {
+  border-left: 2px solid red;
+  height: 60px;
+}
+
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+  font-size: 15px;
+  color: white;
+  font-family: arial;
+}
+.login-form form {
+  margin-bottom: 15px;
+  background: #553483;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.form-control, .btn {
+  min-height: 38px;
+  border-radius: 0px;
+}
+.btn {        
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ec008c;
+  border-color: white;
+
+}
