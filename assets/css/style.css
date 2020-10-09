@@ -1,4 +1,4 @@
-.title-speaker{
+.title-speaker {
   width: 10%;
   font-size: 22px;
   font-family: Arial;
@@ -43,10 +43,87 @@
   min-height: 38px;
   border-radius: 0px;
 }
-.btn {        
-  font-size: 15px;
-  font-weight: bold;
-  background-color: #ec008c;
-  border-color: white;
 
+
+.color{
+  message: #ec008c;
 }
+
+.connectedSortable {
+  columns: 2;
+  column-width: 200px;
+  list-style-type: none;
+  height: auto;
+  margin-top: 100px;
+  background-color: #ededed;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.connectedSortable li{
+
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.right {
+  background: #EC008C;
+}
+.left{
+  background: #553483;
+}
+.message{
+  color: #EC008C;
+}
+html,
+body {
+  height: 100%;
+  margin=0;
+}
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.connectedSortable {
+    columns: 2;
+    column-width: 200px;
+    list-style-type: none;
+    height: auto;
+    margin-top: 100px;
+    background-color: #ededed;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .connectedSortable li{
+    
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .right {
+    background: #EC008C;
+  }
+  .left{
+    background: #553483;
+  }
+  .message{
+    color: #EC008C;
+  }
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ec008c;
+    border-color: white;
+  }

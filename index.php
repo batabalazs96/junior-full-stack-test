@@ -14,8 +14,8 @@ require 'database.php';
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <?php require 'partials/header.php' ?>
-    <div class="main-content">
+    <div class="content">
+        <?php require 'partials/header.php' ?>
         <div class="login-form">
             <form action="index.php" method="post">
                 <?php
@@ -31,7 +31,7 @@ require 'database.php';
                     {
                         $_SESSION['logged']=true;
                         $_SESSION['username']=$myusername1;
-                        header("Location: grab-and-take.php");
+                        header("Location: grab_and_take.php");
                         exit();
                     }
                     else
@@ -56,8 +56,9 @@ require 'database.php';
             </form>
         </div>
         <div>
-         <?php echo $error; ?>
-     </div>
- </div>
+           <?php echo $error; ?>
+       </div>
+   </div>
+   <?php require 'partials/footer.php' ?>
 </body>
 </html>
